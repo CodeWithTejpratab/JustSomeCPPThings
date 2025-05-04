@@ -123,6 +123,12 @@ public:
         --value;
         cout << "Value decremented to: " << value << endl;
     }
+
+    // Method to double value
+    void doubleValue() {
+        value *= 2;
+        cout << "Value doubled to: " << value << endl;
+    }
 };
 
 int main() {
